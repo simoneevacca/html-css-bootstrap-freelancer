@@ -20,14 +20,3 @@ header {
     
  
 
-
-.about {
-    & .content{
-        width: 70%;
-    }
-}
-.contact {
-    & .content{
-        width: 70%;
-    }
-}
