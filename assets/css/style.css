@@ -1,14 +1,4 @@
-.debug#site_header {
-    height: 50px;
-    background-color: red;
-}
 
-
-
-.debug#site_footer {
-    
-   
-}
 
 
 form.debug {
@@ -17,15 +7,14 @@ form.debug {
     background-color: yellow;
     
 }
-.contact {
+.about {
     & .content{
-
         width: 70%;
     }
 }
-
-.about {
+.contact {
     & .content{
+
         width: 70%;
     }
 }
