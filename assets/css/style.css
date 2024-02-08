@@ -29,6 +29,23 @@ header {
         border-radius: 2px;
     }
  }
-    
+
+.portfolio {
+    & img {
+        width: 100%;
+    }
+    & .hr {
+        width: 80px;
+        border: 2px solid black;
+        border-radius: 2px;
+    }
+}
  
 
+.about {
+    & .hr {
+        width: 80px;
+        border: 2px solid white;
+        border-radius: 2px;
+    }
+}
