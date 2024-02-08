@@ -1,0 +1,14 @@
+.debug#site_header {
+    height: 50px;
+    background-color: red;
+}
+
+.debug#site_main {
+    height: 1000px;
+    background-color: lightgray;
+}
+
+.debug#site_footer {
+    height: 200px;
+    background-color: grey;
+}
