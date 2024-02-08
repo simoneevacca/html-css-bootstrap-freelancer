@@ -6,9 +6,26 @@
 
 
 .debug#site_footer {
-    height: 200px;
-    background-color: grey;
+    
+   
 }
 
 
+form.debug {
+    height: 300px;
+    width: 100%;
+    background-color: yellow;
+    
+}
+.contact {
+    & .content{
 
+        width: 70%;
+    }
+}
+
+.about {
+    & .content{
+        width: 70%;
+    }
+}
