@@ -12,3 +12,12 @@
     height: 200px;
     background-color: grey;
 }
+
+.jumbotron .container-sm{
+    background-color: white;
+   
+}
+
+.col-12 {
+    height: 100px;
+}
