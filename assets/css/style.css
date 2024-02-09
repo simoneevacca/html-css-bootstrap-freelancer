@@ -11,52 +11,45 @@
     & i {
         font-size: 1.5rem;
     }
-    > div {
+
+    >div {
         width: 80px;
         border-radius: 2px;
     }
 }
 
-.hr_white {  
+.hr_white {
     border: 2px solid white;
 }
-.hr_black{
+
+.hr_black {
     border: 2px solid black;
 }
 
-form.debug {
-    height: 300px;
-    width: 100%;
-    background-color: yellow;
-    
-}
 
 header {
-    > nav {
+    >nav {
         background-color: var(--primary_color);
     }
- }  
- 
- .jumbotron {
+}
+
+.jumbotron {
     background-color: var(--secondary_color);
 
     & img {
         width: 250px;
     }
-
- }
+}
 
 .portfolio {
     & img {
         width: 100%;
     }
-   
 }
- 
+
 
 .about {
     background-color: var(--secondary_color);
-  
 }
 
 .contact {
@@ -66,10 +59,11 @@ header {
 }
 
 #site_footer {
-    > .top_footer {
+    >.top_footer {
         background-color: var(--dark_color);
     }
-    > .bottom_footer {
+
+    >.bottom_footer {
         background-color: var(--primary_color);
     }
 
@@ -77,6 +71,7 @@ header {
         width: 2.5rem;
         height: 2.5rem;
     }
+
     & a {
         color: var(--secondary_color);
         text-decoration: none;
