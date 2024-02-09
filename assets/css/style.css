@@ -2,6 +2,7 @@
 :root {
     --primary_color: #2c3e50;
     --secondary_color: #1abc9c;
+    --dark_color: #3a546d;
 }
 
 /* Utilities */
@@ -61,5 +62,23 @@ header {
 .contact {
     & button {
         background-color: var(--secondary_color);
+    }
+}
+
+#site_footer {
+    > .top_footer {
+        background-color: var(--dark_color);
+    }
+    > .bottom_footer {
+        background-color: var(--primary_color);
+    }
+
+    & .social {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    & a {
+        color: var(--secondary_color);
+        text-decoration: none;
     }
 }
