@@ -10,6 +10,7 @@
 .hr {
     & i {
         font-size: 1.5rem;
+        padding: 0 0.5rem;
     }
 
     >div {
@@ -75,5 +76,34 @@ header {
     & a {
         color: var(--secondary_color);
         text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h6 {
+        font-size: 1.5rem;
+    }
+    .hr {
+        >div {
+            width: 110px;
+        }
+        
+        > i {
+            padding: 0 1.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hr {
+        >div {
+            width: 140px;
+        }
     }
 }
