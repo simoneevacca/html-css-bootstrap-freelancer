@@ -1,0 +1,140 @@
+/* color palette */
+:root {
+    --primary_color: #2c3e50;
+    --secondary_color: #1abc9c;
+    --dark_color: #3a546d;
+}
+
+/* Utilities */
+
+.hr {
+    & i {
+        font-size: 1.5rem;
+        padding: 0 0.5rem;
+    }
+
+    >div {
+        width: 80px;
+        border-radius: 2px;
+    }
+}
+
+.hr_white {
+    border: 2px solid white;
+}
+
+.hr_black {
+    border: 2px solid black;
+}
+
+
+header {
+    >nav {
+        background-color: var(--primary_color);
+    }
+}
+
+.jumbotron {
+    background-color: var(--secondary_color);
+
+    & img {
+        width: 250px;
+    }
+}
+
+.portfolio {
+    & img {
+        width: 100%;
+    }
+}
+
+
+.about {
+    background-color: var(--secondary_color);
+}
+
+.contact {
+    & button {
+        background-color: var(--secondary_color);
+    }
+}
+
+#site_footer {
+    >.top_footer {
+        background-color: var(--dark_color);
+    }
+
+    >.bottom_footer {
+        background-color: var(--primary_color);
+    }
+
+    & .social {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    & a {
+        color: var(--secondary_color);
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h6 {
+        font-size: 1.5rem;
+    }
+
+    .hr {
+        >div {
+            width: 110px;
+        }
+
+        >i {
+            padding: 0 1.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hr {
+        >div {
+            width: 140px;
+        }
+    }
+}
+
+.fa-plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    display: none;
+}
+
+.card:hover {
+    & img {
+        opacity: 0.5;
+    }
+
+    & .fa-plus {
+        display: block;
+    }
+}
+
+.card {
+    background-color: var(--secondary_color);
+    border: 1px solid white;
+    z-index: 1;
+    position: relative;
+
+}
