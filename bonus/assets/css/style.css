@@ -11,6 +11,9 @@
     & i {
         font-size: 1.5rem;
         padding: 0 0.5rem;
+        animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     }
 
     >div {
@@ -111,6 +114,15 @@ header {
     }
 }
 
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+
 .fa-plus {
     position: absolute;
     top: 50%;
@@ -119,6 +131,7 @@ header {
     font-size: 4rem;
     color: white;
     display: none;
+    
 }
 
 .card:hover {
@@ -136,5 +149,5 @@ header {
     border: 1px solid white;
     z-index: 1;
     position: relative;
-
+    
 }
