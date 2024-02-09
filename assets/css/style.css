@@ -6,14 +6,20 @@
 
 /* Utilities */
 
-.hr_white {
-    width: 80px;
-    border-radius: 2px;
+.hr {
+    & i {
+        font-size: 1.5rem;
+    }
+    > div {
+        width: 80px;
+        border-radius: 2px;
+    }
+}
+
+.hr_white {  
     border: 2px solid white;
 }
 .hr_black{
-    width: 80px;
-    border-radius: 2px;
     border: 2px solid black;
 }
 
@@ -36,10 +42,7 @@ header {
     & img {
         width: 250px;
     }
-    & .hr {
-          border: 2px solid white;
-        
-    }
+
  }
 
 .portfolio {
@@ -53,4 +56,10 @@ header {
 .about {
     background-color: var(--secondary_color);
   
+}
+
+.contact {
+    & button {
+        background-color: var(--secondary_color);
+    }
 }
